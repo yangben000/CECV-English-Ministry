@@ -1,0 +1,9 @@
+.carousel-control-prev{
+	left: 10%;
+}
+.carousel-control-next{
+	right: 10%;
+}
+.w-80{
+	width: 80% !important;
+}
