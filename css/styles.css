@@ -12,8 +12,10 @@
 }
 .outerBackground{
 	background-color: #b3f6ff;
-	width: 100%;
 }
 .customImage7{
-	max-height: 200px;
+	max-height: 300px;
+}
+.customImageLogo{
+	min-height: 250px;
 }
