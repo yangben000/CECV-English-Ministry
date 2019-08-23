@@ -9,14 +9,27 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav class="navbar fixed-top navbar-light bg-navbar">
-          <a class="navbar-brand" href="index.html">Home</a>
-          <a class="navbar-brand" href="aboutus.html">About Us</a>
-          <a class="navbar-brand" href="ministry.html">Ministry</a>
-          <a class="navbar-brand" href="gallery.html">Gallery</a>
-        </nav>
-      </div>
+      <nav class="navbar navbar-expand fixed-top navbar-light bg-navbar">
+        <div class="container">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="navbar-brand" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="navbar-brand dropdown-toggle" role="button" data-toggle="dropdown">Ministry</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="sermons.html">Sunday Sermons</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand" href="gallery.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <div class="outerBackground">
       <div class="innerBackground container">
