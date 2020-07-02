@@ -13,9 +13,6 @@
 .outerBackground{
 	background-color: #b3f6ff;
 }
-.customImageLogo{
-	min-height: 250px;
-}
 .custom-carousel-caption{
   position: absolute;
   right: 15%;
@@ -35,9 +32,6 @@
 }
 .dropdown{
   color: #ffff;
-}
-.homepageImg{
-	max-width: 100%;
 }
 .hompageLogo{
 	max-height: 100%;
