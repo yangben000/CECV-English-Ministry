@@ -36,3 +36,9 @@
 .dropdown{
   color: #ffff;
 }
+.homepageImg{
+	max-width: 100%;
+}
+.hompageLogo{
+	max-height: 100%;
+}
