@@ -33,3 +33,6 @@
 .dropdown{
   color: #ffff;
 }
+table, th, td{
+	border: 1px solid #000000;
+}
