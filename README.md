@@ -1,2 +1,2 @@
 # CECV-English-Ministry
-Thing
+Scuffed Church Website
