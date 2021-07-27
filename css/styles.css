@@ -36,3 +36,46 @@
 table, th, td{
 	border: 1px solid #000000;
 }
+
+
+
+
+
+
+
+
+
+
+
+.logo_size {
+	margin: 5px;
+	border: ;
+	padding: ;
+	width: 20%;
+}
+.custom_nav_bg {
+	background-color: #e3f2fd;
+}
+.development {
+	margin: ;
+	border: 1px solid black;
+	padding: ;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: rgb(0, 0, 0);
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(127, 127, 127);
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.img-fluid {
+	width: 100% \9;
+}
