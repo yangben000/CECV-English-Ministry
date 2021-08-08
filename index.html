@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--Home page of CECV English Ministry Website-->
     <title>CECV English Fellowship</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="CECV, English, Ministry, Home">
+    <!--This line is creating an error, need to do more research-->
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <!--JS + CSS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -12,14 +15,18 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-light navbar-expand-md custom_nav_bg">
+      <!--Navbar-->
+      <nav class="navbar navbar-light navbar-expand-md custom_nav_bg development">
+        <!--Logo and Website Title-->
         <a class="navbar-brand" href="index.html">
           <img class="logo_size" src="imgs/church_logo.png">
           Chinese Evangelical Church of Vancouver: English Ministry
         </a>
+        <!--Navigation Button-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!--Nav options expand from button if screen is large enough-->
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -43,33 +50,45 @@
     </header>
     <main>
       <div>
+        <!--General Info-->
         <section id="introduction">
           <div class="container">
-              <video autoplay loop muted width="40%">
-                <source src="videos/gallery/church.MP4" type="video/mp4">
-              </video>
-              <h2>We're building a family-friendly community where Chinese and
-                Asian-Americans can build friendships, share life, and raise healthy kids.</h2>
-              <p>
-                As a Bible-believing Christian church, we'll explore what it means to
-                "seek first the Kingdom of God" through the cultural lens of recovering Tiger Cubs
-                finding our way in a performance-driven world.
-                <br><br>
-                Through our experiences, we've noticed that many Asian-Americans-even those who've lived
-                all their lives in America-have a tough time finding a spiritual home in mainline Anglo churches.
-                To fill this gap, we're shaping CECV to be a place where folks like us can "geek out" on
-                God, grace, and good Asian food.
-                <br><br>
-                As a young ministry seeking to transform Clark County for Jesus Christ, we're on the lookout for
-                co-workers, musicians and prayer warriors to join our team.
-              </p>
+            <div class="row spacing text-center">
+              <div class="col">
+                <!--Time-lapse videl-->
+                <video autoplay loop muted width="90%">
+                  <source src="videos/gallery/church.MP4" type="video/mp4">
+                </video>
+              </div>
+              <!--Quote from Psalm 96:1-->
+              <div class="col shadow rounded">
+                <blockquote class="spacing">"Sing to the Lord a new song; sing to the Lord, all the earth. Sing to the Lord, praise his name; proclaim his salvation day after day."</blockquote>
+                -Psalm 96:1
+              </div>
+            </div>
+            <!--Introduction paragraph stuff-->
+            <h2 class="spacing">We're building a family-friendly community where Chinese and
+              Asian-Americans can build friendships, share life, and raise healthy kids.</h2>
+            <p class="spacing">
+              As a Bible-believing Christian church, we'll explore what it means to
+              "seek first the Kingdom of God" through the cultural lens of recovering Tiger Cubs
+              finding our way in a performance-driven world.
+              <br><br>
+              Through our experiences, we've noticed that many Asian-Americans-even those who've lived
+              all their lives in America-have a tough time finding a spiritual home in mainline Anglo churches.
+              To fill this gap, we're shaping CECV to be a place where folks like us can "geek out" on
+              God, grace, and good Asian food.
+              <br><br>
+              As a young ministry seeking to transform Clark County for Jesus Christ, we're on the lookout for
+              co-workers, musicians and prayer warriors to join our team.
+            </p>
           </div>
         </section>
         <hr>
-        <!-- "Sing to the Lord a new song; sing to the Lord, all the earth. Sing to the Lord, praise his name; proclaim his salvation day after day." -Psalm 96:1 -->
         <section class="container" id="related_info">
           <div class="row">
-            <div class="col">
+            <!--List of current ministries and short description-->
+            <div class="col spacing">
               <h3>Current Ministries</h3>
               <table class="table">
                 <tr>
@@ -95,7 +114,8 @@
                 </tr>
               </table>
             </div>
-            <div class="col">
+            <!--Lists weekly gathering days and times for different groups-->
+            <div class="col spacing">
               <h3>Weekly Gatherings</h3>
               <h5>Sundays</h5>
               <ul>
@@ -117,10 +137,11 @@
             </div>
           </div>
         </section>
-
       </div>
     </main>
   </body>
+  <!--Bottom blue bar with basic info-->
+  <!--Note: need an email that is not idkwhotoput@gmail.com-->
   <footer>
     <div class="custom_nav_bg text-center">
       <hr>

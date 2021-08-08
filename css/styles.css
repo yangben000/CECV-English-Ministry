@@ -76,3 +76,11 @@
 .img-fluid {
 	width: 100% \9;
 }
+.spacing {
+	margin: 20px;
+	border: ;
+	padding: ;
+}
+blockquote {
+	font-size: 25px;
+}
