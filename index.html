@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <!--Home page of CECV English Ministry Website-->
     <title>CECV English Fellowship</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="CECV, English, Ministry, Home">
+    <!--This line is creating an error, need to do more research-->
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <!--JS + CSS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -12,86 +15,139 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand fixed-top navbar-dark bg-primary">
-        <div class="container">
+      <!--Navbar-->
+      <nav class="navbar navbar-light navbar-expand-md custom_nav_bg development">
+        <!--Logo and Website Title-->
+        <a class="navbar-brand" href="index.html">
+          <img class="logo_size" src="imgs/church_logo.png">
+          Chinese Evangelical Church of Vancouver: English Ministry
+        </a>
+        <!--Navigation Button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Nav options expand from button if screen is large enough-->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="navbar-brand" href="index.html">Home</a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="aboutus.html">About Us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="navbar-brand dropdown-toggle" role="button" data-toggle="dropdown">Ministry</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="ministry.html">Ministry</a>
-                <a class="dropdown-item" href="sermons.html">Sunday Sermons</a>
-              </div>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="sermons.html">Sermons</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="alumni.html">Alumni</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="alumni.html">Alumni</a>
+            </li> -->
           </ul>
         </div>
       </nav>
     </header>
-    <div class="outerBackground">
-      <div class="innerBackground container">
-        <br>
-        <br>
-        <br>
-        <img src="imgs/church_logo.png" class="mx-auto d-block">
-        <br>
-        <h1>Welcome!</h1>
-        <p>Hello</p>
-        <br>
-        <h3>We're building a family-friendly community where Chinese and Asian-Americans can build friendships, share life, and raise healthy kids.</h3>
-        <br>
-        <p>As a Bible-believing Christian church, we'll explore what it means to "seek first the Kingdom of God" through the cultural lens of recovering Tiger Cubs finding our way in a performance-driven world.</p>
-        <br>
-        <p>Through our experiences, we've noticed that many Asian-Americans -- even those who've lived all their lives in America -- have a tough time finding a spiritual home in mainline Anglo churches.  To fill this gap, we're shaping CECV to be a place where folks like us can "geek out" on God, grace, and good Asian food.</p>
-        <br>
-        <br>
-        <p>As a young ministry seeking to transform Clark County for Jesus Christ, we're on the lookout for co-workers, musicians and prayer warriors to join our team.</p>
-        <br>
-        <h3>"Sing to the Lord a new song; sing to the Lord, all the earth. Sing to the Lord, praise his name; proclaim his salvation day after day."
-        -Psalm 96:1</h3>
-        <br>
-        <h5>Do you desire rich fellowship among a Christ-centered body of believers?</h5>
-        <br>
-        <h5>Would you like to see Christ shine in the Chinese- and Asian-American community in Clark County?</h5>
-        <br>
-        <h5>Are you willing to get in on the ground floor and be a part of something new?</h5>
-        <br>
-        <h1>Weekly Gatherings</h1>
-        <br>
-        <h3>Sundays</h3>
-        <ul>
-          <li>10:00 AM Worship Service</li>
-          <li>10:30 AM Children Leave for Sunday School</li>
-          <li>11:20 AM Adult Sunday School</li>
-          <li>11:20 AM Youth Sunday School</li>
-          <li>12:30 PM Ending Time</li>
-        </ul>
-        <h3>Wednesdays</h3>
-        <ul>
-          <li>7:30 PM Church Prayer Meeting</li>
-        </ul>
-        <h3>Fridays</h3>
-        <ul>
-          <li>7:30 PM Adult Bible Study</li>
-          <li>7:30 PM Youth Group</li>
-        </ul>
-        <br>
+    <main>
+      <div>
+        <!--General Info-->
+        <section id="introduction">
+          <div class="container">
+            <div class="row spacing text-center">
+              <div class="col">
+                <!--Time-lapse videl-->
+                <video autoplay loop muted width="90%">
+                  <source src="videos/gallery/church.MP4" type="video/mp4">
+                </video>
+              </div>
+              <!--Quote from Psalm 96:1-->
+              <div class="col shadow rounded">
+                <blockquote class="spacing">"Sing to the Lord a new song; sing to the Lord, all the earth. Sing to the Lord, praise his name; proclaim his salvation day after day."</blockquote>
+                -Psalm 96:1
+              </div>
+            </div>
+            <!--Introduction paragraph stuff-->
+            <h2 class="spacing">We're building a family-friendly community where Chinese and
+              Asian-Americans can build friendships, share life, and raise healthy kids.</h2>
+            <p class="spacing">
+              As a Bible-believing Christian church, we'll explore what it means to
+              "seek first the Kingdom of God" through the cultural lens of recovering Tiger Cubs
+              finding our way in a performance-driven world.
+              <br><br>
+              Through our experiences, we've noticed that many Asian-Americans-even those who've lived
+              all their lives in America-have a tough time finding a spiritual home in mainline Anglo churches.
+              To fill this gap, we're shaping CECV to be a place where folks like us can "geek out" on
+              God, grace, and good Asian food.
+              <br><br>
+              As a young ministry seeking to transform Clark County for Jesus Christ, we're on the lookout for
+              co-workers, musicians and prayer warriors to join our team.
+            </p>
+          </div>
+        </section>
+        <hr>
+        <section class="container" id="related_info">
+          <div class="row">
+            <!--List of current ministries and short description-->
+            <div class="col spacing">
+              <h3>Current Ministries</h3>
+              <table class="table">
+                <tr>
+                  <td scope="col">Intercultural Marriages</td>
+                  <td scope="col">With the shrinking of the globe and the increase in connecting people
+                    via the internet, it is becoming common to find marriages that cross cultures. These
+                    marriages pose unique challenges, and we strive to encourage these couples with the
+                    heart to mentor and serve them.</td>
+                </tr>
+                <tr>
+                  <td scope="col">Youth</td>
+                  <td scope="col">Motivated by God's love and empowered by the Holy Spirit, we seek to be a
+                    Biblically-based Youth Group that impacts our peers, our church, our community, and
+                    the world in ways that Jesus would. We have youth group on Friday nights and youth
+                    Sunday school after worship on Sundays. Middle school and high school students are
+                    welcome to join.</td>
+                </tr>
+                <tr>
+                  <td scope="col">Children's Ministry</td>
+                  <td scope="col">Combined with the Chinese side. The children have their own Sunday school
+                    as well as Friday night programs. Once a month, we have a Children's Worship Service.
+                    We also have a nursery for babies and new mothers.</td>
+                </tr>
+              </table>
+            </div>
+            <!--Lists weekly gathering days and times for different groups-->
+            <div class="col spacing">
+              <h3>Weekly Gatherings</h3>
+              <h5>Sundays</h5>
+              <ul>
+                <li>10:00 AM Worship Service</li>
+                <li>10:30 AM Children Leave for Sunday School</li>
+                <li>11:20 AM Adult Sunday School</li>
+                <li>11:20 AM Youth Sunday School</li>
+                <li>12:30 PM Ending Time</li>
+              </ul>
+              <h5>Wednesdays</h5>
+              <ul>
+                <li>7:30 PM Church Prayer Meeting</li>
+              </ul>
+              <h5>Fridays</h5>
+              <ul>
+                <li>7:30 PM Adult Bible Study</li>
+                <li>7:30 PM Youth Group</li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
+    </main>
   </body>
+  <!--Bottom blue bar with basic info-->
+  <!--Note: need an email that is not idkwhotoput@gmail.com-->
   <footer>
-    <div class="bg-footer">
-      <p class="text-center">Chinese Evangelical Church of Vancouver / 900 SE Ellsworth Rd, Vancouver, WA 98664 / (360)-944-1556 / Contact: exampleemail@gmail.com<p>
+    <div class="custom_nav_bg text-center">
+      <hr>
+      <img src="imgs/footer_image.png">
+      <p>(360) 944 1556 | 900 SE Ellsworth Rd, Vancouver, WA 98664 | idkwhotoput@gmail.com</p>
+      <hr>
     </div>
   </footer>
 </html>

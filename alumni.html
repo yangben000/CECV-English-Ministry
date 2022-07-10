@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Alumni</title>
+    <title>CECV English Fellowship</title>
     <meta charset="UTF-8">
-    <meta name="keywords" content="CECV, English, Ministry, Alumni">
+    <meta name="keywords" content="CECV, English, Ministry, Home">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -12,104 +12,90 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand fixed-top navbar-dark bg-primary">
-        <div class="container">
+      <nav class="navbar navbar-light navbar-expand-md custom_nav_bg">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo_size" src="imgs/church_logo.png">
+          Chinese Evangelical Church of Vancouver: English Ministry
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="navbar-brand" href="index.html">Home</a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="aboutus.html">About Us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="navbar-brand dropdown-toggle" role="button" data-toggle="dropdown">Ministry</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="ministry.html">Ministry</a>
-                <a class="dropdown-item" href="sermons.html">Sunday Sermons</a>
-              </div>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="sermons.html">Sermons</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="alumni.html">Alumni</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="alumni.html">Alumni</a>
+            </li> -->
           </ul>
         </div>
       </nav>
     </header>
-    <div class="outerBackground">
-      <div class="innerBackground container">
-        <!--Start Edits Here-->
-        <br>
-        <br>
-        <br>
-        <h1>For CECV's 30th Anniversary, the English Ministry is showcasing some of the wonderful alumni we've had over the years!</h1>
-        <br>
-        <div class="container text-center">
-          <h3>Christine Lee</h3>
-          <video controls width="80%">
-            <source src="videos/alumni/Christine_Lee.mp4">
-          </video>
-          <br>
-          <img src="imgs/alumni/bo_ai_1.jpg" width="80%">
-          <br>
-          <br>
-          <img src="imgs/alumni/bo_ai_2.jpg" width="80%" center>
-          <br>
-          <h3>Claire Lee</h3>
-          <video controls width="80%">
-            <source src="videos/alumni/Claire_Lee.mp4">
-          </video>
-          <br>
-          <h3>Felicia Wang</h3>
-          <video controls width="80%">
-            <source src="videos/alumni/Felicia_Wang.mp4">
-          </video>
-          <br>
-          <img src="imgs/alumni/Felicia_Wang.jpg" width="80%">
-          <br>
-          <h3>Hana</h3>
-          <video controls width="80%">
-            <source src="videos/alumni/CECV Hana Video - Zean Li.mp4">
-          </video>
-          <br>
-          <h3>Joshua Zeng</h3>
-          <video controls width="80%">
-            <source src="videos/alumni/CECV_Joshua_Zeng - Joshua Zeng.mp4">
-          </video>
-          <br>
-          <img src="imgs/alumni/Joshua_Zeng.jpg" width="80%">
-          <br>
-          <h3>Patrice Huang</h3>
-          <video controls width="80%">
-            <source src="videos/alumni/Patrice_Huang.mp4">
-          </video>
-          <br>
-          <h3>Peter Joel Ueng</h3>
-          <video controls width="80%">
-            <source src="videos/alumni/Peter_Ueng.mp4">
-          </video>
-          <br>
-          <h3>Tim Lau</h3>
-          <video controls width="80%">
-            <source src="videos/alumni/Tim_Lau.mp4">
-          </video>
-          <br>
-          <img src="imgs/alumni/Tim_Lau.jpg" width="80%">
-          <br>
-          <h3>Xinyang Chen</h3>
-          <video controls width="80%">
-            <source src="videos/alumni/Xinyang_Chen.mp4">
-          </video>
-          <br>
-        </div>
-      </div>
-    </div>
+    <main class="container text-center">
+      <section>
+        <h3>Amanda Hensley</h3>
+        <video controls width="30%">
+          <source src="videos/alumni/Amanda_Hensley.mp4">
+        </video>
+      </section>
+      <section>
+        <h3>Christine Lee</h3>
+        <video controls width="80%">
+          <source src="videos/alumni/Christine_Lee.mp4">
+        </video>
+        <img src="imgs/alumni/bo_ai_1.jpg" width="80%">
+        <img src="imgs/alumni/bo_ai_2.jpg" width="80%">
+      </section>
+      <section>
+        <h3>Claire Lee</h3>
+        <video controls width="30%">
+          <source src="videos/alumni/Claire_Lee.mp4">
+        </video>
+      </section>
+      <section>
+        <h3>Felicia Wang</h3>
+        <video controls width="80%">
+          <source src="videos/alumni/Felicia_Wang.mp4">
+        </video>
+        <img src="imgs/alumni/Felicia_Wang.jpg" width="40%">
+      </section>
+      <section>
+        <h3>Peter Joel Ueng</h3>
+        <video controls width="80%">
+          <source src="videos/alumni/Peter_Ueng.mp4">
+        </video>
+      </section>
+      <section>
+        <h3>Tim Lau</h3>
+        <video controls width="30%">
+          <source src="videos/alumni/Tim_Lau.mp4">
+        </video>
+        <img src="imgs/alumni/Tim_Lau.jpg" width="70%">
+      </section>
+      <section>
+        <h3>Xinyang Chen</h3>
+        <video controls width="80%">
+          <source src="videos/alumni/Xinyang_Chen.mp4">
+        </video>
+      </section>
+    </main>
   </body>
   <footer>
-    <div class="bg-footer">
-      <p class="text-center">Chinese Evangelical Church of Vancouver / 900 SE Ellsworth Rd, Vancouver, WA 98664 / Contact: (360)-944-1556<p>
+    <div class="custom_nav_bg text-center">
+      <hr>
+      <img src="imgs/footer_image.png">
+      <p>(360) 944 1556 | 900 SE Ellsworth Rd, Vancouver, WA 98664 | idkwhotoput@gmail.com</p>
+      <hr>
     </div>
   </footer>
 </html>
